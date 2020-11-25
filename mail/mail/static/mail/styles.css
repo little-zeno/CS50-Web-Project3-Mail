@@ -1,0 +1,26 @@
+textarea {
+    min-height: 400px;
+}
+
+.parent {
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.subject {
+    font-size: x-large;
+}
+
+.time {
+    opacity: 0.7;
+}
+
+.email-body {
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding: 20px 0px;
+}
